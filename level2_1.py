@@ -1,4 +1,4 @@
-# Python Task Level 1 :
+# Python Task Leve2 1 :
 # 1. Transform all names to uppercase using [normal list - list comprehension - functional programming]
 
 
