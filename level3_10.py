@@ -6,11 +6,13 @@ import time
 
 
 def count_down_calc(n_seconds):
-    print("m : s")
+    print('-'*20)
+    print("minutes\t :\tseconds")
+    print('-'*20)
     while n_seconds+1:
         mins, secs = n_seconds//60, n_seconds%60
 
-        print(f"{mins} : {secs} ")
+        print(f"{mins}\t :\t{secs} ")
         time.sleep(1)
         n_seconds -= 1
         
