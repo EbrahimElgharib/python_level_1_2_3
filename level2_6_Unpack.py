@@ -1,11 +1,11 @@
 # Python Task Leve2 4 :
+
 '''
 6. Unpack the list in
 7. a,b , a= the first index , b = rest of the list
 8. a = the first index , b = the last index
 9. a = the first index , b = the second index
 '''
-
 
 
 Names = ['mahmoud','farida','ali','hassan','mohamed', 'khaled','taha', 'xyz']

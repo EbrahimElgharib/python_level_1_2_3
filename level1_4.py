@@ -2,8 +2,8 @@
 # Create a function that takes a sentence and prints the sentence without duplicated words
 
 
-# my Function
-def del_duplicates(sentence):
+# Func for letters
+def del_consecutive_letters(sentence):
     # output sentence without a duplicated words
     result = ''
     for s in range(len(sentence)-1):
@@ -15,10 +15,24 @@ def del_duplicates(sentence):
     result += sentence[-1]
     print(result)
     
+# Func for words
+def del_consecutive_words(sentence):
+    words_list = sentence.split(' ')
+    no_duplicated_words = []
+    
+    for word in words_list:
+        if word not in duplicated_words:
+            duplicated_words.append(word)
+        
+    print(' '.join(no_duplicated_words))
+    
 
 # get string
 sentence = input('Please type a Sentence : ')
-del_duplicates(sentence)
+
+# del_consecutive_letters(sentence)
+del_consecutive_words(sentence)
+
 
         
         
