@@ -24,7 +24,7 @@ print(new_names2)
 # function
 def func(name):
     if 'a' in name:
-        return name
+        return True
 
 new_names3 = list(filter(func, Names))
 print(new_names3)
